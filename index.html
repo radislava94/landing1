@@ -124,15 +124,32 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             line-height: 1.3;
-            margin: 30px 0 20px 0;
+            margin: 30px auto;
             text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
         }
 
-        h1 img {
-            max-width: 100%;
-            height: auto;
+        /* Centering wrapper for product image */
+        .product-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
             margin-bottom: 15px;
+        }
+
+        .product-center img {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
             border-radius: 8px;
+            display: block;
+            margin: 0 auto;
         }
 
         h1 div {
@@ -782,7 +799,8 @@
             </header>
             <div class="contentsol">
                 <p style="margin-bottom: 10px;"><span style="font-weight: 700" id="timeStamp1">пред 18 дни</span></p>
-                <h1><img src="Stallion_Pwr_Bottle.webp">
+                <h1>
+                    <div class="product-center"><img src="Stallion_Pwr_Bottle.webp" alt="Stallion Power"></div>
                     <div> Тајното откритие за растот ќе ја зголеми големината на вашиот пенис <a href="#"> + 3,2 CM НЕДЕЛНО </a></div>
                 </h1>
                 <p> Драги читатели </p>
